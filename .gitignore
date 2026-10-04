@@ -1,0 +1,33 @@
+# Environment Variables
+.env
+.env.local
+*.env
+
+# SQLite and local DB files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+backend/.venv/
+.venv/
+env/
+venv/
+ENV/
+
+# Node & Frontend build
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
